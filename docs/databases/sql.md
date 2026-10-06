@@ -30,7 +30,7 @@ INNER JOIN은 조인 조건에 맞는 행을 결합한다. OUTER JOIN은 선택�
 
 statement, row, mixed 방식은 기록하는 내용과 unsafe 문장 처리 방식이 다르다. row image에 포함되는 열도 설정에 따라 달라진다. MySQL은 `NOW()`를 statement 복제에 안전한 함수로 취급한다. `SYSDATE()`와 `UUID()` 같은 예는 버전·설정과 공식 safe/unsafe 목록을 확인한다. 복제 지연이 항상 100ms 이내라는 일반 보장은 없다.
 
-[NoSQL](nosql.md) · [인덱스 튜닝](index-tuning.md) · [CAP](cap-theorem.md)
+[NoSQL](nosql.md) · [인덱스 튜닝](index-tuning.md) · [트랜잭션과 격리 수준](transactions.md) · [CAP](cap-theorem.md)
 
 ## 참고 자료
 

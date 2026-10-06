@@ -11,7 +11,16 @@ visibility: public
 
 GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [위키 홈](index.md) · [웹 태그 목록](tags/index.md)
 
-[#argocd](#argocd) · [#async](#async) · [#authentication](#authentication) · [#authorization](#authorization) · [#automation](#automation) · [#aws](#aws) · [#big-data](#big-data) · [#boot](#boot) · [#caching](#caching) · [#career](#career) · [#case-study](#case-study) · [#cdn](#cdn) · [#certification](#certification) · [#ci-cd](#ci-cd) · [#cloud](#cloud) · [#collaboration](#collaboration) · [#communication](#communication) · [#compiler](#compiler) · [#computer-science](#computer-science) · [#containers](#containers) · [#cors](#cors) · [#cryptography](#cryptography) · [#databases](#databases) · [#ddos](#ddos) · [#deployment](#deployment) · [#devops](#devops) · [#distributed-systems](#distributed-systems) · [#dns](#dns) · [#docker](#docker) · [#filesystem](#filesystem) · [#git](#git) · [#gitops](#gitops) · [#high-availability](#high-availability) · [#http](#http) · [#iac](#iac) · [#infrastructure](#infrastructure) · [#ingress](#ingress) · [#interview](#interview) · [#java](#java) · [#jpa](#jpa) · [#kernel](#kernel) · [#kubernetes](#kubernetes) · [#languages](#languages) · [#licensing](#licensing) · [#linux](#linux) · [#load-balancing](#load-balancing) · [#logging](#logging) · [#memory](#memory) · [#mongodb](#mongodb) · [#monitoring](#monitoring) · [#networking](#networking) · [#nosql](#nosql) · [#open-source](#open-source) · [#openstack](#openstack) · [#operating-systems](#operating-systems) · [#performance](#performance) · [#process](#process) · [#prometheus](#prometheus) · [#proxy](#proxy) · [#redis](#redis) · [#reference](#reference) · [#scaling](#scaling) · [#scheduling](#scheduling) · [#security](#security) · [#service-mesh](#service-mesh) · [#sidecar](#sidecar) · [#slo](#slo) · [#sql](#sql) · [#sre](#sre) · [#storage](#storage) · [#svn](#svn) · [#thread](#thread) · [#tls](#tls) · [#tooling](#tooling) · [#troubleshooting](#troubleshooting) · [#version-control](#version-control) · [#virtualization](#virtualization) · [#windows](#windows) · [#workloads](#workloads)
+[#algorithms](#algorithms) · [#architecture](#architecture) · [#argocd](#argocd) · [#async](#async) · [#authentication](#authentication) · [#authorization](#authorization) · [#automation](#automation) · [#aws](#aws) · [#big-data](#big-data) · [#boot](#boot) · [#caching](#caching) · [#career](#career) · [#case-study](#case-study) · [#cdn](#cdn) · [#certification](#certification) · [#ci-cd](#ci-cd) · [#cloud](#cloud) · [#collaboration](#collaboration) · [#communication](#communication) · [#compiler](#compiler) · [#computer-science](#computer-science) · [#concurrency](#concurrency) · [#containers](#containers) · [#cors](#cors) · [#cryptography](#cryptography) · [#data-structures](#data-structures) · [#databases](#databases) · [#ddos](#ddos) · [#deployment](#deployment) · [#devops](#devops) · [#distributed-systems](#distributed-systems) · [#dns](#dns) · [#docker](#docker) · [#filesystem](#filesystem) · [#git](#git) · [#gitops](#gitops) · [#high-availability](#high-availability) · [#http](#http) · [#iac](#iac) · [#infrastructure](#infrastructure) · [#ingress](#ingress) · [#interview](#interview) · [#java](#java) · [#jpa](#jpa) · [#kernel](#kernel) · [#kubernetes](#kubernetes) · [#languages](#languages) · [#licensing](#licensing) · [#linux](#linux) · [#load-balancing](#load-balancing) · [#logging](#logging) · [#memory](#memory) · [#mongodb](#mongodb) · [#monitoring](#monitoring) · [#networking](#networking) · [#nosql](#nosql) · [#open-source](#open-source) · [#openstack](#openstack) · [#operating-systems](#operating-systems) · [#performance](#performance) · [#process](#process) · [#prometheus](#prometheus) · [#proxy](#proxy) · [#redis](#redis) · [#reference](#reference) · [#reliability](#reliability) · [#scaling](#scaling) · [#scheduling](#scheduling) · [#security](#security) · [#service-mesh](#service-mesh) · [#sidecar](#sidecar) · [#slo](#slo) · [#sql](#sql) · [#sre](#sre) · [#storage](#storage) · [#svn](#svn) · [#thread](#thread) · [#tls](#tls) · [#tooling](#tooling) · [#transactions](#transactions) · [#troubleshooting](#troubleshooting) · [#version-control](#version-control) · [#virtualization](#virtualization) · [#windows](#windows) · [#workloads](#workloads)
+
+## algorithms
+
+- [자료구조와 시간 복잡도](computer-science/data-structures.md) — 노트
+- [탐색과 그래프 알고리즘](computer-science/algorithms.md) — 노트
+
+## architecture
+
+- [로그인, 게시판과 주문 서비스 설계](architecture/web-service-design.md) — 노트
 
 ## argocd
 
@@ -53,8 +62,10 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 ## caching
 
 - [CloudFront와 CDN](cloud/aws/cloudfront.md) — 노트
+- [HTTP 메서드, 캐시와 재시도](networking/http-semantics.md) — 노트
 - [Linux 메모리와 캐시](operating-systems/linux/memory.md) — 노트
 - [Redis 활용 패턴](databases/redis/redis-usecase.md) — 노트
+- [로그인, 게시판과 주문 서비스 설계](architecture/web-service-design.md) — 노트
 
 ## career
 
@@ -110,13 +121,21 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 ## computer-science
 
+- [CS 면접 답변과 꼬리 질문 26개](interview/cs-answers.md) — 노트
 - [CS 면접 질문과 학습 순서](interview/cs-interview.md) — 노트
 - [가상화](computer-science/virtualization.md) — 노트
 - [메모리와 포인터](computer-science/memory-and-pointers.md) — 노트
 - [비동기 I/O 사례](computer-science/async-io-case-study.md) — 노트
+- [자료구조와 시간 복잡도](computer-science/data-structures.md) — 노트
 - [컴파일과 링킹](computer-science/compilation.md) — 노트
 - [콜백과 코루틴](computer-science/callback-and-coroutine.md) — 노트
+- [탐색과 그래프 알고리즘](computer-science/algorithms.md) — 노트
 - [프로세스와 스레드](computer-science/process-thread.md) — 노트
+
+## concurrency
+
+- [동기화와 교착 상태](operating-systems/synchronization.md) — 노트
+- [트랜잭션과 격리 수준](databases/transactions.md) — 노트
 
 ## containers
 
@@ -156,6 +175,11 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [보안 개요](security/security.md) — 노트
 - [중간자 공격 (MITM)](security/mitm/mitm.md) — 노트
 
+## data-structures
+
+- [자료구조와 시간 복잡도](computer-science/data-structures.md) — 노트
+- [탐색과 그래프 알고리즘](computer-science/algorithms.md) — 노트
+
 ## databases
 
 - [CAP와 PACELC](databases/cap-theorem.md) — 노트
@@ -168,6 +192,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [데이터 레이크와 테이블 계층](databases/big-data.md) — 노트
 - [데이터베이스 접근 장애 점검](databases/troubleshooting.md) — 노트
 - [인덱스와 실행 계획](databases/index-tuning.md) — 노트
+- [트랜잭션과 격리 수준](databases/transactions.md) — 노트
 
 ## ddos
 
@@ -193,7 +218,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [Prometheus Pull과 Pushgateway](devops/monitoring/prometheus-push-pull.md) — 노트
 - [SRE](devops/sre/sre.md) — 노트
 - [SVN 기본](devops/version-control/svn/svn-basic.md) — 노트
-- [로그 분석 참고 자료](devops/monitoring/log.md) — 노트
+- [로그 분석과 Cloudflare 사례](devops/monitoring/log.md) — 노트
 - [모니터링과 SLO](devops/monitoring/general.md) — 노트
 - [성능과 장애 진단](devops/troubleshooting.md) — 노트
 - [운영 자동화](devops/automation/general.md) — 노트
@@ -239,6 +264,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 ## http
 
 - [DNS와 HTTP 요청 관찰](networking/dns-process.md) — 노트
+- [HTTP 메서드, 캐시와 재시도](networking/http-semantics.md) — 노트
 - [네트워크 개요](networking/network.md) — 노트
 
 ## iac
@@ -257,6 +283,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 ## interview
 
+- [CS 면접 답변과 꼬리 질문 26개](interview/cs-answers.md) — 노트
 - [CS 면접 질문과 학습 순서](interview/cs-interview.md) — 노트
 
 ## java
@@ -331,13 +358,14 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 - [Docker 로그 확인](containers/docker/troubleshooting.md) — 노트
 - [Kubernetes 애플리케이션 운영](containers/kubernetes/application-operations.md) — 노트
-- [로그 분석 참고 자료](devops/monitoring/log.md) — 노트
+- [로그 분석과 Cloudflare 사례](devops/monitoring/log.md) — 노트
 - [통합 로그 설계](devops/monitoring/integration.md) — 노트
 
 ## memory
 
 - [Linux 메모리와 캐시](operating-systems/linux/memory.md) — 노트
 - [Redis 운영](databases/redis/redis.md) — 노트
+- [가상 메모리와 페이지 폴트](operating-systems/virtual-memory.md) — 노트
 - [메모리와 포인터](computer-science/memory-and-pointers.md) — 노트
 
 ## mongodb
@@ -348,7 +376,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 - [Prometheus Pull과 Pushgateway](devops/monitoring/prometheus-push-pull.md) — 노트
 - [SRE](devops/sre/sre.md) — 노트
-- [로그 분석 참고 자료](devops/monitoring/log.md) — 노트
+- [로그 분석과 Cloudflare 사례](devops/monitoring/log.md) — 노트
 - [모니터링과 SLO](devops/monitoring/general.md) — 노트
 - [통합 로그 설계](devops/monitoring/integration.md) — 노트
 
@@ -357,6 +385,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [AWS 자원과 로드 밸런서](cloud/aws/aws-resource.md) — 노트
 - [CORS](security/cors/cors.md) — 노트
 - [DNS와 HTTP 요청 관찰](networking/dns-process.md) — 노트
+- [HTTP 메서드, 캐시와 재시도](networking/http-semantics.md) — 노트
 - [Kubernetes 네트워크 장애 진단](containers/kubernetes/troubleshooting/network.md) — 노트
 - [Linux 네트워킹 참고 자료](operating-systems/linux/network.md) — 노트
 - [Linux 서버 네트워크 장애 진단](operating-systems/linux/troubleshooting/server-networking-error.md) — 노트
@@ -396,6 +425,8 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [Linux 파일 시스템](operating-systems/linux/filesystem.md) — 노트
 - [Linux 프로세스](operating-systems/linux/process.md) — 노트
 - [Windows 서비스 진단](operating-systems/windows/services.md) — 노트
+- [가상 메모리와 페이지 폴트](operating-systems/virtual-memory.md) — 노트
+- [동기화와 교착 상태](operating-systems/synchronization.md) — 노트
 
 ## performance
 
@@ -428,7 +459,12 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 - [Linux 네트워킹 참고 자료](operating-systems/linux/network.md) — 노트
 - [Linux 커널 참고 자료](operating-systems/linux/kernel.md) — 노트
 - [기술 학습 자료](career/resources/reading.md) — 노트
-- [로그 분석 참고 자료](devops/monitoring/log.md) — 노트
+- [로그 분석과 Cloudflare 사례](devops/monitoring/log.md) — 노트
+
+## reliability
+
+- [HTTP 메서드, 캐시와 재시도](networking/http-semantics.md) — 노트
+- [로그인, 게시판과 주문 서비스 설계](architecture/web-service-design.md) — 노트
 
 ## scaling
 
@@ -464,6 +500,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 - [SQL과 NoSQL 비교](databases/sql.md) — 노트
 - [인덱스와 실행 계획](databases/index-tuning.md) — 노트
+- [트랜잭션과 격리 수준](databases/transactions.md) — 노트
 
 ## sre
 
@@ -485,6 +522,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 ## thread
 
 - [Linux 프로세스](operating-systems/linux/process.md) — 노트
+- [동기화와 교착 상태](operating-systems/synchronization.md) — 노트
 - [콜백과 코루틴](computer-science/callback-and-coroutine.md) — 노트
 - [프로세스와 스레드](computer-science/process-thread.md) — 노트
 
@@ -497,6 +535,11 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 ## tooling
 
 - [운영·개발 도구](devops/tools.md) — 노트
+
+## transactions
+
+- [로그인, 게시판과 주문 서비스 설계](architecture/web-service-design.md) — 노트
+- [트랜잭션과 격리 수준](databases/transactions.md) — 노트
 
 ## troubleshooting
 

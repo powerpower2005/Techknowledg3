@@ -74,7 +74,7 @@ def outputs(pages):
     text += '[태그로 찾기](tags.md) · [웹 태그 목록](tags/index.md) · [위키 사용법](guides/wiki.md) · [문서 작성 규칙](guides/contributing.md)\n\n'
     text += f"주제 문서는 **{len(pages)}개**, 태그는 **{len(by_tag)}개**입니다. 초안 {counts['draft']}개와 검토 필요 {counts['review']}개를 상태로 구분합니다.\n\n"
     if by_category['interview']:
-        text += '## CS 면접 준비\n\n[CS 면접 질문과 학습 순서](interview/cs-interview.md)에서 질문을 고르고 관련 지식 문서로 이동하세요. 정의, 동작 원리, 예시, 한계 순서로 자신의 답변을 정리합니다.\n\n'
+        text += '## CS 면접 준비\n\n[CS 면접 질문과 학습 순서](interview/cs-interview.md)에서 질문을 고르거나 [짧은 답변과 꼬리 질문](interview/cs-answers.md)을 읽으세요. 관련 지식의 원리와 예시를 확인하고 자신의 답변을 정리합니다.\n\n'
     text += '## 주제별 탐색\n\n| 주제 | 문서 | 초안 |\n| --- | ---: | ---: |\n'
     for category, title in active.items():
         group = by_category[category]

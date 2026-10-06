@@ -4,6 +4,7 @@ CS 면접 질문과 기술 지식을 모으는 공개 학습 위키입니다. �
 
 - [위키 홈](docs/index.md)
 - [CS 면접 질문과 학습 순서](docs/interview/cs-interview.md)
+- [CS 면접 답변과 꼬리 질문 26개](docs/interview/cs-answers.md)
 - [태그로 찾기](docs/tags.md)
 - [로컬 실행](docs/guides/wiki.md)
 - [문서 작성 규칙](docs/guides/contributing.md)

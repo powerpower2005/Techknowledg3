@@ -72,14 +72,17 @@ nav:
 - 태그 목록 (Markdown): tags.md
 - CS 면접:
   - 주제 목차: interview/index.md
+  - CS 면접 답변과 꼬리 질문 26개: interview/cs-answers.md
   - CS 면접 질문과 학습 순서: interview/cs-interview.md
 - 컴퓨터 과학:
   - 주제 목차: computer-science/index.md
   - 가상화: computer-science/virtualization.md
   - 메모리와 포인터: computer-science/memory-and-pointers.md
   - 비동기 I/O 사례: computer-science/async-io-case-study.md
+  - 자료구조와 시간 복잡도: computer-science/data-structures.md
   - 컴파일과 링킹: computer-science/compilation.md
   - 콜백과 코루틴: computer-science/callback-and-coroutine.md
+  - 탐색과 그래프 알고리즘: computer-science/algorithms.md
   - 프로세스와 스레드: computer-science/process-thread.md
 - 운영체제:
   - 주제 목차: operating-systems/index.md
@@ -95,9 +98,12 @@ nav:
   - Linux 파일 시스템: operating-systems/linux/filesystem.md
   - Linux 프로세스: operating-systems/linux/process.md
   - Windows 서비스 진단: operating-systems/windows/services.md
+  - 가상 메모리와 페이지 폴트: operating-systems/virtual-memory.md
+  - 동기화와 교착 상태: operating-systems/synchronization.md
 - 네트워크:
   - 주제 목차: networking/index.md
   - DNS와 HTTP 요청 관찰: networking/dns-process.md
+  - HTTP 메서드, 캐시와 재시도: networking/http-semantics.md
   - 네트워크 개요: networking/network.md
   - 리버스 프록시와 HAProxy: networking/reverse-proxy.md
 - 데이터베이스:
@@ -111,6 +117,7 @@ nav:
   - 데이터 레이크와 테이블 계층: databases/big-data.md
   - 데이터베이스 접근 장애 점검: databases/troubleshooting.md
   - 인덱스와 실행 계획: databases/index-tuning.md
+  - 트랜잭션과 격리 수준: databases/transactions.md
 - 클라우드:
   - 주제 목차: cloud/index.md
   - AWS 자원과 로드 밸런서: cloud/aws/aws-resource.md
@@ -158,7 +165,7 @@ nav:
   - Prometheus Pull과 Pushgateway: devops/monitoring/prometheus-push-pull.md
   - SRE: devops/sre/sre.md
   - SVN 기본: devops/version-control/svn/svn-basic.md
-  - 로그 분석 참고 자료: devops/monitoring/log.md
+  - 로그 분석과 Cloudflare 사례: devops/monitoring/log.md
   - 모니터링과 SLO: devops/monitoring/general.md
   - 성능과 장애 진단: devops/troubleshooting.md
   - 운영 자동화: devops/automation/general.md
@@ -172,6 +179,9 @@ nav:
   - 보안 개요: security/security.md
   - 세션과 인증 토큰: security/session-token/session-token.md
   - 중간자 공격 (MITM): security/mitm/mitm.md
+- 시스템 설계:
+  - 주제 목차: architecture/index.md
+  - 로그인, 게시판과 주문 서비스 설계: architecture/web-service-design.md
 - 프로그래밍 언어:
   - 주제 목차: languages/index.md
   - JPA와 ORM: languages/java/jpa.md

@@ -25,3 +25,5 @@ visibility: public
 | [Linux 파일 시스템](linux/filesystem.md) | 노트 | [#filesystem](../tags.md#filesystem) · [#linux](../tags.md#linux) · [#operating-systems](../tags.md#operating-systems) · [#storage](../tags.md#storage) |
 | [Linux 프로세스](linux/process.md) | 노트 | [#linux](../tags.md#linux) · [#operating-systems](../tags.md#operating-systems) · [#process](../tags.md#process) · [#thread](../tags.md#thread) |
 | [Windows 서비스 진단](windows/services.md) | 노트 | [#operating-systems](../tags.md#operating-systems) · [#windows](../tags.md#windows) |
+| [가상 메모리와 페이지 폴트](virtual-memory.md) | 노트 | [#operating-systems](../tags.md#operating-systems) · [#memory](../tags.md#memory) |
+| [동기화와 교착 상태](synchronization.md) | 노트 | [#operating-systems](../tags.md#operating-systems) · [#concurrency](../tags.md#concurrency) · [#thread](../tags.md#thread) |

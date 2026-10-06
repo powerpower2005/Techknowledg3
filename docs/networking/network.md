@@ -7,7 +7,7 @@ tags:
 - networking
 - tls
 status: note
-reviewed_at: '2026-10-06'
+reviewed_at: '2026-10-07'
 applies_to: 일반 네트워크 개념, TCP와 TLS 1.3; API별 timeout 정의는 별도 확인
 content_origin: original-summary
 visibility: public
@@ -26,6 +26,12 @@ HTTPS의 기본 포트는 443이다. TLS는 서버 이름과 공개키를 연결
 
 TCP는 연결과 순서 있는 바이트 스트림, 재전송, 흐름·혼잡 제어를 제공한다. UDP는 데이터그램 인터페이스이며 TCP와 같은 연결 설정과 전달 보장을 제공하지 않는다. UDP 위에 신뢰성 기능을 구현하는 상위 프로토콜도 있다. DNS 등 개별 서비스가 사용하는 전송 방식은 해당 프로토콜을 확인한다.
 
+TCP 연결을 새로 여는 일반적인 과정은 SYN → SYN/ACK → ACK의 three-way handshake다. 양쪽의 초기 sequence와 연결 상태를 맞춘다. TLS handshake는 이와 별도의 상위 과정이다.
+
+흐름 제어는 수신 측이 받을 수 있는 양을 고려하고, 혼잡 제어는 네트워크의 혼잡에 맞춰 전송량을 조절한다. sequence와 ACK·재전송으로 스트림을 다루지만 상대 애플리케이션이 업무 처리를 완료했다는 보장까지 주지는 않는다.
+
+바이트 스트림에는 애플리케이션 메시지의 경계가 없다. send 한 번의 내용이 read 한 번에 그대로 도착한다고 가정하지 말고 길이 prefix·구분자 등 framing을 정의한다. 연결 종료와 응답 누락도 구분한다.
+
 ## 주소와 라우팅
 
 IPv4 주소는 32비트, IPv6 주소는 128비트다. CIDR은 주소의 prefix 길이를 나타낸다. IPv4의 ARP는 같은 링크에서 다음 홉의 IP에 대응하는 링크 계층 주소를 찾는 데 사용한다. 다른 서브넷의 목적지에 보낼 때는 일반적으로 게이트웨이의 링크 주소가 필요하다. IPv6는 Neighbor Discovery를 사용한다.
@@ -40,7 +46,7 @@ L4 부하 분산은 보통 IP·포트와 전송 연결을 기준으로, L7 부�
 
 ## 이어 읽기
 
-[DNS 조회 과정](dns-process.md) · [리버스 프록시](reverse-proxy.md)
+[DNS 조회 과정](dns-process.md) · [리버스 프록시](reverse-proxy.md) · [HTTP 메서드와 캐시](http-semantics.md)
 
 ## 참고 자료
 

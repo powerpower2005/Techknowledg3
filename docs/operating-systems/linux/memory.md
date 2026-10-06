@@ -32,6 +32,8 @@ CPU 캐시는 메모리 접근의 시간·공간 지역성을 활용한다. CPU 
 
 ## 참고 자료
 
+[주소 변환·TLB·페이지 폴트 자세히 보기](../virtual-memory.md)
+
 - [커널 메모리 개념](https://docs.kernel.org/admin-guide/mm/concepts.html)
 
 <!-- BEGIN WIKI NAV -->

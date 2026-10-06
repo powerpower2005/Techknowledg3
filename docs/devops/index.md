@@ -24,7 +24,7 @@ visibility: public
 | [Prometheus Pull과 Pushgateway](monitoring/prometheus-push-pull.md) | 노트 | [#devops](../tags.md#devops) · [#high-availability](../tags.md#high-availability) · [#monitoring](../tags.md#monitoring) · [#prometheus](../tags.md#prometheus) |
 | [SRE](sre/sre.md) | 노트 | [#automation](../tags.md#automation) · [#devops](../tags.md#devops) · [#monitoring](../tags.md#monitoring) · [#sre](../tags.md#sre) |
 | [SVN 기본](version-control/svn/svn-basic.md) | 노트 | [#devops](../tags.md#devops) · [#svn](../tags.md#svn) · [#version-control](../tags.md#version-control) |
-| [로그 분석 참고 자료](monitoring/log.md) | 노트 | [#devops](../tags.md#devops) · [#logging](../tags.md#logging) · [#monitoring](../tags.md#monitoring) · [#reference](../tags.md#reference) |
+| [로그 분석과 Cloudflare 사례](monitoring/log.md) | 노트 | [#devops](../tags.md#devops) · [#logging](../tags.md#logging) · [#monitoring](../tags.md#monitoring) · [#reference](../tags.md#reference) |
 | [모니터링과 SLO](monitoring/general.md) | 노트 | [#devops](../tags.md#devops) · [#monitoring](../tags.md#monitoring) · [#slo](../tags.md#slo) · [#sre](../tags.md#sre) |
 | [성능과 장애 진단](troubleshooting.md) | 노트 | [#devops](../tags.md#devops) · [#performance](../tags.md#performance) · [#troubleshooting](../tags.md#troubleshooting) |
 | [운영 자동화](automation/general.md) | 노트 | [#automation](../tags.md#automation) · [#devops](../tags.md#devops) |
