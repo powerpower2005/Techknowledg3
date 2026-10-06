@@ -1,0 +1,6 @@
+:root {
+  --md-text-font: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  --md-code-font: Consolas, "SFMono-Regular", monospace;
+}
+.md-typeset { line-height: 1.8; }
+.md-typeset img { max-height: 42rem; object-fit: contain; }

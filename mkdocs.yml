@@ -1,0 +1,187 @@
+site_name: Techknowledg3
+site_description: 공개 기술 학습 위키 · 주제와 태그로 탐색하는 지식 노트
+site_url: https://powerpower2005.github.io/Techknowledg3/
+repo_url: https://github.com/powerpower2005/Techknowledg3
+repo_name: powerpower2005/Techknowledg3
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+dev_addr: 127.0.0.1:8001
+use_directory_urls: true
+theme:
+  name: material
+  language: ko
+  font: false
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 어두운 화면으로 전환
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 밝은 화면으로 전환
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search:
+      lang: [en]
+  - tags:
+      tags_slugify_format: "{slug}"
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - assets/stylesheets/extra.css
+extra:
+  publication_scope: public
+  status:
+    draft: 작성 중인 초안
+    review: 기술 설명 검토 필요
+    note: 학습 및 운영 기록
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+# BEGIN GENERATED NAV
+nav:
+- 홈: index.md
+- 태그: tags/index.md
+- 태그 목록 (Markdown): tags.md
+- 컴퓨터 과학:
+  - 주제 목차: computer-science/index.md
+  - 가상화: computer-science/virtualization.md
+  - 메모리와 포인터: computer-science/memory-and-pointers.md
+  - 비동기 I/O 사례: computer-science/async-io-case-study.md
+  - 컴파일과 링킹: computer-science/compilation.md
+  - 콜백과 코루틴: computer-science/callback-and-coroutine.md
+  - 프로세스와 스레드: computer-science/process-thread.md
+- 운영체제:
+  - 주제 목차: operating-systems/index.md
+  - Linux 네트워킹 참고 자료: operating-systems/linux/network.md
+  - Linux 메모리와 캐시: operating-systems/linux/memory.md
+  - Linux 명령어: operating-systems/linux/linux-command.md
+  - Linux 부팅: operating-systems/linux/boot.md
+  - Linux 블록 계층: operating-systems/linux/block.md
+  - Linux 서버 네트워크 장애 진단: operating-systems/linux/troubleshooting/server-networking-error.md
+  - Linux 장치: operating-systems/linux/device.md
+  - Linux 커널 네트워크 설정: operating-systems/linux/network-kernel/network-kernel.md
+  - Linux 커널 참고 자료: operating-systems/linux/kernel.md
+  - Linux 파일 시스템: operating-systems/linux/filesystem.md
+  - Linux 프로세스: operating-systems/linux/process.md
+  - Windows 서비스 진단: operating-systems/windows/services.md
+- 네트워크:
+  - 주제 목차: networking/index.md
+  - DNS와 HTTP 요청 관찰: networking/dns-process.md
+  - 네트워크 개요: networking/network.md
+  - 리버스 프록시와 HAProxy: networking/reverse-proxy.md
+- 데이터베이스:
+  - 주제 목차: databases/index.md
+  - CAP와 PACELC: databases/cap-theorem.md
+  - MongoDB: databases/mongodb.md
+  - NoSQL: databases/nosql.md
+  - Redis 운영: databases/redis/redis.md
+  - Redis 활용 패턴: databases/redis/redis-usecase.md
+  - SQL과 NoSQL 비교: databases/sql.md
+  - 데이터 레이크와 테이블 계층: databases/big-data.md
+  - 데이터베이스 접근 장애 점검: databases/troubleshooting.md
+  - 인덱스와 실행 계획: databases/index-tuning.md
+- 클라우드:
+  - 주제 목차: cloud/index.md
+  - AWS 자원과 로드 밸런서: cloud/aws/aws-resource.md
+  - CloudFront와 CDN: cloud/aws/cloudfront.md
+  - OpenStack Neutron: cloud/openstack/neutron.md
+  - OpenStack Nova: cloud/openstack/nova.md
+  - 클라우드 개요: cloud/cloud.md
+- 컨테이너 · Kubernetes:
+  - 주제 목차: containers/index.md
+  - CKA 학습 가이드: containers/kubernetes/certifications/cka.md
+  - CKAD 학습 가이드: containers/kubernetes/certifications/ckad.md
+  - CKS 학습 가이드: containers/kubernetes/certifications/cks.md
+  - DaemonSet: containers/kubernetes/daemonset.md
+  - Deployment와 배포 관리: containers/kubernetes/deployment.md
+  - Docker 개요: containers/docker/docker.md
+  - Docker 로그 확인: containers/docker/troubleshooting.md
+  - Dockerfile과 ENTRYPOINT / CMD: containers/docker/dockerfile.md
+  - Kubernetes 네트워크 장애 진단: containers/kubernetes/troubleshooting/network.md
+  - Kubernetes 볼륨: containers/kubernetes/volumes.md
+  - Kubernetes 스토리지 장애 진단: containers/kubernetes/troubleshooting/storage.md
+  - Kubernetes 아키텍처와 핵심 개념: containers/kubernetes/overview.md
+  - Kubernetes 애플리케이션 운영: containers/kubernetes/application-operations.md
+  - Kubernetes 장애 진단 시작하기: containers/kubernetes/troubleshooting/starttroubleshooting.md
+  - RBAC 장애 진단: containers/kubernetes/troubleshooting/rbac.md
+  - Service와 Ingress 네트워킹: containers/kubernetes/service-ingress.md
+  - 경량 컨테이너 이미지: containers/docker/lightweight-image.md
+  - 네임스페이스 장애 진단: containers/kubernetes/troubleshooting/namespace.md
+  - 서비스 메시와 Canary 배포: containers/kubernetes/troubleshooting/others.md
+  - 스케줄링 장애 진단: containers/kubernetes/troubleshooting/schedule.md
+  - 애드온과 사이드카 장애 진단: containers/kubernetes/troubleshooting/add-on-sidecar.md
+  - 애플리케이션 장애 진단: containers/kubernetes/troubleshooting/application.md
+  - 인증과 인가 장애 진단: containers/kubernetes/troubleshooting/authorize-authenticate.md
+  - 자동 확장 장애 진단: containers/kubernetes/troubleshooting/auto-scale.md
+  - 클러스터 장애 진단: containers/kubernetes/troubleshooting/cluster.md
+- DevOps · 운영:
+  - 주제 목차: devops/index.md
+  - Argo CD 학습 순서: devops/ci-cd/argocd-outline.md
+  - Argo CD와 GitOps: devops/ci-cd/argocd.md
+  - CI/CD 개요: devops/ci-cd/general.md
+  - DevSecOps: devops/devsecops/general.md
+  - Git 기초: devops/version-control/git/git-basic.md
+  - Git 협업 작업 흐름: devops/version-control/git/merge-workflow.md
+  - GitOps: devops/ci-cd/gitops.md
+  - Infrastructure as Code: devops/infrastructure/iac.md
+  - Prometheus Pull과 Pushgateway: devops/monitoring/prometheus-push-pull.md
+  - SRE: devops/sre/sre.md
+  - SVN 기본: devops/version-control/svn/svn-basic.md
+  - 로그 분석 참고 자료: devops/monitoring/log.md
+  - 모니터링과 SLO: devops/monitoring/general.md
+  - 성능과 장애 진단: devops/troubleshooting.md
+  - 운영 자동화: devops/automation/general.md
+  - 운영·개발 도구: devops/tools.md
+  - 인프라 설계: devops/infrastructure/general.md
+  - 통합 로그 설계: devops/monitoring/integration.md
+- 보안:
+  - 주제 목차: security/index.md
+  - CORS: security/cors/cors.md
+  - X.509 인증서: security/x509-certificates.md
+  - 보안 개요: security/security.md
+  - 세션과 인증 토큰: security/session-token/session-token.md
+  - 중간자 공격 (MITM): security/mitm/mitm.md
+- 프로그래밍 언어:
+  - 주제 목차: languages/index.md
+  - JPA와 ORM: languages/java/jpa.md
+  - Java 가상 스레드와 플랫폼 스레드: languages/java/thread.md
+- 면접 · 협업 · 경험:
+  - 주제 목차: career/index.md
+  - 기술 커뮤니케이션: career/soft-skills/communication.md
+  - 기술 학습 자료: career/resources/reading.md
+  - 시스템 엔지니어 역량: career/system-engineer.md
+  - 오픈소스 라이선스 기초: career/resources/open-source.md
+  - 협업과 업무 프로세스: career/soft-skills/workprocess.md
+- 위키 안내:
+  - 위키 사용법: guides/wiki.md
+  - 문서 작성 규칙: guides/contributing.md
+  - GitHub Pages 배포: guides/github-pages.md
+# END GENERATED NAV
