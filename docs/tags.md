@@ -11,7 +11,7 @@ visibility: public
 
 GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [위키 홈](index.md) · [웹 태그 목록](tags/index.md)
 
-[#argocd](#argocd) · [#async](#async) · [#authentication](#authentication) · [#authorization](#authorization) · [#automation](#automation) · [#aws](#aws) · [#big-data](#big-data) · [#boot](#boot) · [#caching](#caching) · [#career](#career) · [#case-study](#case-study) · [#cdn](#cdn) · [#certification](#certification) · [#ci-cd](#ci-cd) · [#cloud](#cloud) · [#collaboration](#collaboration) · [#communication](#communication) · [#compiler](#compiler) · [#computer-science](#computer-science) · [#containers](#containers) · [#cors](#cors) · [#cryptography](#cryptography) · [#databases](#databases) · [#ddos](#ddos) · [#deployment](#deployment) · [#devops](#devops) · [#distributed-systems](#distributed-systems) · [#dns](#dns) · [#docker](#docker) · [#filesystem](#filesystem) · [#git](#git) · [#gitops](#gitops) · [#high-availability](#high-availability) · [#http](#http) · [#iac](#iac) · [#infrastructure](#infrastructure) · [#ingress](#ingress) · [#java](#java) · [#jpa](#jpa) · [#kernel](#kernel) · [#kubernetes](#kubernetes) · [#languages](#languages) · [#licensing](#licensing) · [#linux](#linux) · [#load-balancing](#load-balancing) · [#logging](#logging) · [#memory](#memory) · [#mongodb](#mongodb) · [#monitoring](#monitoring) · [#networking](#networking) · [#nosql](#nosql) · [#open-source](#open-source) · [#openstack](#openstack) · [#operating-systems](#operating-systems) · [#performance](#performance) · [#process](#process) · [#prometheus](#prometheus) · [#proxy](#proxy) · [#redis](#redis) · [#reference](#reference) · [#scaling](#scaling) · [#scheduling](#scheduling) · [#security](#security) · [#service-mesh](#service-mesh) · [#sidecar](#sidecar) · [#slo](#slo) · [#sql](#sql) · [#sre](#sre) · [#storage](#storage) · [#svn](#svn) · [#thread](#thread) · [#tls](#tls) · [#tooling](#tooling) · [#troubleshooting](#troubleshooting) · [#version-control](#version-control) · [#virtualization](#virtualization) · [#windows](#windows) · [#workloads](#workloads)
+[#argocd](#argocd) · [#async](#async) · [#authentication](#authentication) · [#authorization](#authorization) · [#automation](#automation) · [#aws](#aws) · [#big-data](#big-data) · [#boot](#boot) · [#caching](#caching) · [#career](#career) · [#case-study](#case-study) · [#cdn](#cdn) · [#certification](#certification) · [#ci-cd](#ci-cd) · [#cloud](#cloud) · [#collaboration](#collaboration) · [#communication](#communication) · [#compiler](#compiler) · [#computer-science](#computer-science) · [#containers](#containers) · [#cors](#cors) · [#cryptography](#cryptography) · [#databases](#databases) · [#ddos](#ddos) · [#deployment](#deployment) · [#devops](#devops) · [#distributed-systems](#distributed-systems) · [#dns](#dns) · [#docker](#docker) · [#filesystem](#filesystem) · [#git](#git) · [#gitops](#gitops) · [#high-availability](#high-availability) · [#http](#http) · [#iac](#iac) · [#infrastructure](#infrastructure) · [#ingress](#ingress) · [#interview](#interview) · [#java](#java) · [#jpa](#jpa) · [#kernel](#kernel) · [#kubernetes](#kubernetes) · [#languages](#languages) · [#licensing](#licensing) · [#linux](#linux) · [#load-balancing](#load-balancing) · [#logging](#logging) · [#memory](#memory) · [#mongodb](#mongodb) · [#monitoring](#monitoring) · [#networking](#networking) · [#nosql](#nosql) · [#open-source](#open-source) · [#openstack](#openstack) · [#operating-systems](#operating-systems) · [#performance](#performance) · [#process](#process) · [#prometheus](#prometheus) · [#proxy](#proxy) · [#redis](#redis) · [#reference](#reference) · [#scaling](#scaling) · [#scheduling](#scheduling) · [#security](#security) · [#service-mesh](#service-mesh) · [#sidecar](#sidecar) · [#slo](#slo) · [#sql](#sql) · [#sre](#sre) · [#storage](#storage) · [#svn](#svn) · [#thread](#thread) · [#tls](#tls) · [#tooling](#tooling) · [#troubleshooting](#troubleshooting) · [#version-control](#version-control) · [#virtualization](#virtualization) · [#windows](#windows) · [#workloads](#workloads)
 
 ## argocd
 
@@ -110,6 +110,7 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 
 ## computer-science
 
+- [CS 면접 질문과 학습 순서](interview/cs-interview.md) — 노트
 - [가상화](computer-science/virtualization.md) — 노트
 - [메모리와 포인터](computer-science/memory-and-pointers.md) — 노트
 - [비동기 I/O 사례](computer-science/async-io-case-study.md) — 노트
@@ -253,6 +254,10 @@ GitHub와 웹 위키에서 공통으로 탐색할 수 있는 목록입니다. [�
 ## ingress
 
 - [Service와 Ingress 네트워킹](containers/kubernetes/service-ingress.md) — 노트
+
+## interview
+
+- [CS 면접 질문과 학습 순서](interview/cs-interview.md) — 노트
 
 ## java
 

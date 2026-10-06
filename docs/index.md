@@ -9,16 +9,21 @@ visibility: public
 
 # Techknowledg3
 
-공개 기술 학습 위키 · 주제와 태그로 탐색하는 지식 노트
+CS 면접 준비와 기술 지식 위키 · 질문, 주제와 태그로 탐색하는 학습 노트
 
 [태그로 찾기](tags.md) · [웹 태그 목록](tags/index.md) · [위키 사용법](guides/wiki.md) · [문서 작성 규칙](guides/contributing.md)
 
-주제 문서는 **90개**, 태그는 **78개**입니다. 초안 0개와 검토 필요 0개를 상태로 구분합니다.
+주제 문서는 **91개**, 태그는 **79개**입니다. 초안 0개와 검토 필요 0개를 상태로 구분합니다.
+
+## CS 면접 준비
+
+[CS 면접 질문과 학습 순서](interview/cs-interview.md)에서 질문을 고르고 관련 지식 문서로 이동하세요. 정의, 동작 원리, 예시, 한계 순서로 자신의 답변을 정리합니다.
 
 ## 주제별 탐색
 
 | 주제 | 문서 | 초안 |
 | --- | ---: | ---: |
+| [CS 면접](interview/index.md) | 1 | 0 |
 | [컴퓨터 과학](computer-science/index.md) | 6 | 0 |
 | [운영체제](operating-systems/index.md) | 12 | 0 |
 | [네트워크](networking/index.md) | 3 | 0 |
@@ -32,6 +37,7 @@ visibility: public
 
 ## 시작하기
 
+- CS 면접: [CS 면접 질문과 학습 순서](interview/cs-interview.md)
 - 컴퓨터 과학: [가상화](computer-science/virtualization.md)
 - 운영체제: [Linux 네트워킹 참고 자료](operating-systems/linux/network.md)
 - 네트워크: [DNS와 HTTP 요청 관찰](networking/dns-process.md)

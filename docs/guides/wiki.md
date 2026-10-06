@@ -9,7 +9,7 @@ visibility: public
 
 # 위키 사용법
 
-`docs/`의 같은 Markdown 원본을 GitHub와 로컬 웹 위키에서 읽습니다. [홈](../index.md)에서 주제를 고르거나 [태그 목록](../tags.md)을 사용합니다. 웹에서는 검색과 밝은·어두운 화면 전환도 제공합니다.
+`docs/`의 같은 Markdown 원본을 GitHub, GitHub Pages와 로컬 웹 위키에서 읽습니다. [CS 면접 질문](../interview/cs-interview.md)으로 준비를 시작하거나 [홈](../index.md)에서 주제와 [태그 목록](../tags.md)을 탐색합니다. 웹에서는 검색과 밝은·어두운 화면 전환도 제공합니다.
 
 ## 로컬에서 읽기
 
@@ -38,6 +38,7 @@ python3 -m venv .venv
 | `docs/tags.md`, `docs/tags/index.md` | Markdown·웹 태그 탐색 |
 | `docs/guides/` | 사용·작성·배포 안내 |
 | `templates/article.md` | 새 문서 양식 |
+| `templates/interview.md` | 면접 질문과 답변 양식 |
 | `scripts/wiki.py` | 목차 생성과 검사 |
 | `site/` | Git에 넣지 않는 빌드 결과 |
 

@@ -1,5 +1,7 @@
 name: Deploy wiki to GitHub Pages
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -8,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: vars.WIKI_PUBLISH_ENABLED == 'true'
+    if: github.ref == 'refs/heads/main' && vars.WIKI_PUBLISH_ENABLED == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read

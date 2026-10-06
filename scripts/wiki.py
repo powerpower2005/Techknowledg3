@@ -11,6 +11,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
 CATEGORIES = {
+    'interview': 'CS 면접',
     'computer-science': '컴퓨터 과학', 'operating-systems': '운영체제',
     'networking': '네트워크', 'databases': '데이터베이스', 'cloud': '클라우드',
     'containers': '컨테이너 · Kubernetes', 'devops': 'DevOps · 운영',
@@ -72,6 +73,8 @@ def outputs(pages):
     text = frontmatter(name) + f'# {name}\n\n{intro}\n\n'
     text += '[태그로 찾기](tags.md) · [웹 태그 목록](tags/index.md) · [위키 사용법](guides/wiki.md) · [문서 작성 규칙](guides/contributing.md)\n\n'
     text += f"주제 문서는 **{len(pages)}개**, 태그는 **{len(by_tag)}개**입니다. 초안 {counts['draft']}개와 검토 필요 {counts['review']}개를 상태로 구분합니다.\n\n"
+    if by_category['interview']:
+        text += '## CS 면접 준비\n\n[CS 면접 질문과 학습 순서](interview/cs-interview.md)에서 질문을 고르고 관련 지식 문서로 이동하세요. 정의, 동작 원리, 예시, 한계 순서로 자신의 답변을 정리합니다.\n\n'
     text += '## 주제별 탐색\n\n| 주제 | 문서 | 초안 |\n| --- | ---: | ---: |\n'
     for category, title in active.items():
         group = by_category[category]

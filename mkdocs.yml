@@ -1,5 +1,5 @@
 site_name: Techknowledg3
-site_description: 공개 기술 학습 위키 · 주제와 태그로 탐색하는 지식 노트
+site_description: CS 면접 준비와 기술 지식 위키 · 질문, 주제와 태그로 탐색하는 학습 노트
 site_url: https://powerpower2005.github.io/Techknowledg3/
 repo_url: https://github.com/powerpower2005/Techknowledg3
 repo_name: powerpower2005/Techknowledg3
@@ -70,6 +70,9 @@ nav:
 - 홈: index.md
 - 태그: tags/index.md
 - 태그 목록 (Markdown): tags.md
+- CS 면접:
+  - 주제 목차: interview/index.md
+  - CS 면접 질문과 학습 순서: interview/cs-interview.md
 - 컴퓨터 과학:
   - 주제 목차: computer-science/index.md
   - 가상화: computer-science/virtualization.md
